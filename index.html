@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Midterm 2 Registration form</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/e67a350474.js"></script>
+</head>
+
+<body>
+    <div class="main-block">
+
+        <div class="navigation">
+            <div class="nav-content"><b>Хекслет</b> &nbsp;&nbsp;&nbsp;&nbsp; Программы обучения &nbsp;&nbsp;&nbsp; Бесплатно &nbsp;&nbsp;&nbsp; Компаниям</div>
+            <div class="nav-button">
+                <button onclick="document.location='index2.html'" class="auth">Вход</button> 
+                <button onclick="document.location='index.html'" class="reg">Регистрация</button></div>
+            <hr>
+        </div>
+
+        <div class="extrainformation">
+            <div class="info1"><i class="fa fa-2x fa-book fas" aria-hidden="true"></i><br><br><b>120+ Курсов</b><br><br>JavaScript, PHP, Python, Java, вёрстка, git, командная строка, sql, функциональное программирование, ооп, автоматизированное тестирование и многое другое</div>
+            <div class="info2"><i class="fa fa-2x fa-pencil fas" aria-hidden="true"></i><br><br><b>Проекты</b><br><br>Приложения, разрабатываемые на гитхабе в процессе обучения, помогают наработать реальную практику, необходимую для закрепления. Выступают в качестве портфолио</div>
+            <div class="info3"><i class="fa fa-2x fa-desktop fas" aria-hidden="true"></i><br><br><b>1500+ упражнений и тестов</b><br><br>Онлайн-тренажёр с автоматической проверкой корректности и качества кода с помощью линтеров. Возможность посмотреть решение учителя</div>
+            <div class="info4"><i class="fa fa-2x fa-users fas" aria-hidden="true"></i><br><br><b>Поддержка в обучении</b><br><br>Наставники помогают двигаться быстро и в нужном направлении. Отвечают на вопросы, подсказывают и помогают сделать код качественнее</div>
+        </div>
+
+        <div class="formblock">
+            <div class="welcomeinfo">
+                Регистрация
+            </div>
+            <form name="reg" onsubmit="return myValidation()" method="post" action="">
+            
+                <div class="form-main">
+
+                    <div class="form-email">
+                        <label for="email">Электронная почта</label><br>
+                    </div>
+
+                    <div class="form-email2">
+                        <input class="form-nameinput" id="email" type="text" name="email">
+                    </div>
+
+                    <div class="form-name">
+                        <label for="name">Имя</label><br>
+                    </div>
+
+                    <div class="form-name2">
+                        <input class="form-nameinput" id="name" type="text" name="name">
+                    </div>
+                    
+                    <div class="form-password">
+                        <label for="psw"><span id="font-formpassword">Пароль</span></label><br>
+                    </div>
+                    <div class="form-password2">
+                        <input class="form-nameinput" id="psw" type="password" name="psw">
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button class="submitbutton" onclick="saveData()" type="submit">Зарегистрироваться</button>
+                    </div>   
+                    
+                    <div class="extratext">
+                        Отправляя форму, вы соглашаетесь c «Политикой конфиденциальности» и «Условиями оказания услуг»
+                    </div>
+
+                    <div class="icons">
+
+                        <div class="github">
+                            <div class="github-icon">
+                                <a href="https://github.com/"><i class="fa fa-github fa-2x fasta" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="facebook">
+                            <div class="facebook-icon">
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official fa-2x fasta" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="linkedin">
+                            <div class="linkedin-icon">
+                                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x fasta" aria-hidden="true"></i></a>
+                            </div>                            
+                        </div>
+
+                    </div>
+
+                    <div class="footer"></div>
+                    <div class="footerinformation">
+                            Уже есть аккаунт? <a href="index2.html" >Войти</a>
+                        </div>
+
+                </div>   
+
+            </form>
+        </div>
+
+    </div>
+<script type="text/javascript" src="js/validation.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+</body>
+</html>

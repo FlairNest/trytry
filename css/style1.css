@@ -1,0 +1,264 @@
+html, body{
+    min-height:100%
+}
+.main-block{
+    position:absolute;
+    left:140px;
+    width:1300px;
+    height:773px;
+}
+.nav-content{
+    padding-top:20px;
+}
+
+.navigation{
+    position:absolute;
+    width:100%;
+    font-size:20px;
+}
+.auth{
+    margin-top:10px;
+    width:80px;
+    height:35px;
+    border:1px solid black;
+    border-radius:5px;
+    background:white;
+}
+.auth:hover{
+    background:gray;
+    color:white;
+}
+.reg:hover{
+    background:gray;
+    color:white; 
+}
+.reg{
+    margin-top:10px;
+    width:100px;
+    height:35px;
+    border:1px solid black;
+    border-radius:5px;
+    background:white;
+}
+.nav-button{
+    position:absolute;
+    right:50px;
+    top:0px;
+}
+.info1{
+    position:absolute;
+    width:300px;
+    top:150px;
+    height:100px;
+    font-size:18px;
+}
+.info2{
+    position:absolute;
+    width:300px;
+    height:100px;
+    top:150px;
+    font-size:18px;
+    left:350px;
+}
+.info3{
+    position:absolute;
+    width:300px;
+    height:100px;
+    font-size:19px;
+    top:400px;
+}
+.info4{
+    position:absolute;
+    width:300px;
+    height:100px;
+    font-size:18px;
+    left:350px;
+    top:400px;
+}
+.formblock{
+    position:absolute;
+    width:550px;
+    height:550px;
+    top:150px;
+    right:50px;
+    border:1px solid #EAEAEA;
+    border-radius:2px;
+}
+.welcomeinfo{
+    position:absolute;
+    font-size:30px;
+    top:40px;
+    left:40px;
+}
+.form-email{
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+.form-email2{
+    position:absolute;
+    top:140px;
+    left:40px;
+}
+.form-emailS{
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+.form-email2S{
+    position:absolute;
+    top:140px;
+    left:40px;
+}
+.form-name{
+    position:absolute;
+    top:180px;
+    left:40px;
+}
+
+.form-name2{
+    position:absolute;
+    top:200px;
+    left:40px;
+    width:400px;
+}
+
+.form-password{
+    position:absolute;
+    top:240px;
+    left:40px;
+}
+.forget{
+    position:absolute;
+    top:270px;
+    right:50px;
+}
+
+.form-password2{
+    position:absolute;
+    top:260px;
+    left:40px;
+}
+
+.form-passwordS{
+    position:absolute;
+    top:180px;
+    left:40px;
+}
+
+.form-password2S{
+    position:absolute;
+    top:200px;
+    left:40px;
+}
+.form-submit{
+    position:absolute;
+    top:300px;
+    left:40px;
+}
+.form-submit1{
+    position:absolute;
+    top:340px;
+    left:40px;
+}
+.extratext{
+    position:absolute;
+    top:340px;
+    left:40px; 
+    width:500px; 
+}
+.form-nameinput{
+    width:470px;
+    height:30px;
+    padding-left:20px;
+    background: #FFFFFF;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.submitbutton{
+    width:470px;
+    height:30px;
+    background:#4285F4;
+    border: 0px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:white;
+}
+.facebook{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left:200px;
+    top:400px;
+    background: white;
+    border:1px solid gray;
+    border-radius:3px;
+}
+.github{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left:40px;
+    top:400px;
+    background: white;
+    border:1px solid gray;
+    border-radius:3px;
+}
+.linkedin{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left:360px;
+    top:400px;
+    background: white;
+    border:1px solid gray;
+    border-radius:3px;
+}
+.facebook-icon{
+    position:absolute;
+    left:60px;
+    top:4px;
+}
+.linkedin-icon{
+    position:absolute;
+    left:60px;
+    top:4px;
+}
+.github-icon{
+    position:absolute;
+    left:60px;
+    top:4px;
+}
+.footer{
+    position:absolute;
+    width:550px;
+    height:80px;
+    bottom:0px;
+    background:#EAEAEA;
+}
+.footerinformation{
+    position:absolute;
+    left:200px;
+    bottom:40px;
+}
+.footerinformationS{
+    position:absolute;
+    left:150px;
+    bottom:40px;
+}
+a{
+    color:black;  
+}
+a:hover{
+    color:black;
+}
+.fasta{
+ color:gray;
+}
+.fas{
+    color:green;
+}
+.error{
+    border-color:red;
+}
